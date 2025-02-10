@@ -1,4 +1,4 @@
-fun collections(){
+fun main(){
     /**
      * LISTS : Ordered collections of items
      * SETS : Unique unordered collections of items

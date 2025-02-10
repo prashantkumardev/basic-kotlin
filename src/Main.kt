@@ -1,14 +1,16 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+    /**
+     * In Kotlin, TYPE INFERENCE is a feature that allows the compiler to automatically determine the type of expression without the need for explicit type annotations.
+     * This means that when you declare a variable or function, you don't always need to specify its type;
+     * the compiler can often figure it out based on the context.
+     */
+
+    var number = 10   // Type inference--> No need to declare the type of variables.
+    println(number)
+
+    var number1 : Int = 20   // Explicitly declaring the type of the variable
+    println(number1)
 }
