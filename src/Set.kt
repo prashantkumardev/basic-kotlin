@@ -16,6 +16,7 @@ fun main(){
 
     println(readOnlyFruit)
     // [apple, banana, cherry]
+    println(fruit)
 
     // To prevent unwanted modifications, you can create a read-only view of a mutable set by assigning it to a Set:
 
